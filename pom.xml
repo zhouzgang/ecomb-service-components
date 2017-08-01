@@ -6,7 +6,13 @@
 
     <groupId>ecomb.cn</groupId>
     <artifactId>ecomb-service-components</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>ecomb-service-file</module>
+        <module>ecomb-service-account</module>
+        <module>ecomb-service-log</module>
+    </modules>
 
 
 </project>
